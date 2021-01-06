@@ -1,0 +1,1113 @@
+/* Colors: */
+$color-ff6975: #ff6975;
+$color-101519: #101519;
+$color-ae5cff: #ae5cff;
+$color-1ee0fc: #1ee0fc;
+$color-ff495b: #ff495b;
+$color-fca500: #fca500;
+$color-f2c21a: #f2c21a;
+$color-fffa51: #fffa51;
+$color-feffa2: #feffa2;
+$color-ff402e: #ff402e;
+$color-fd6123: #fd6123;
+$color-faa04a: #faa04a;
+$color-f9bd7d: #f9bd7d;
+$color-df0031: #df0031;
+$color-fe173b: #fe173b;
+$color-ea005a: #ea005a;
+$color-fc1d90: #fc1d90;
+$color-fa81ff: #fa81ff;
+$color-ffa2ce: #ffa2ce;
+$color-9a14d5: #9a14d5;
+$color-bf62a8: #bf62a8;
+$color-c08eff: #c08eff;
+$color-298cdd: #298cdd;
+$color-8668fc: #8668fc;
+$color-64b0c8: #64b0c8;
+$color-5bcaa9: #5bcaa9;
+$color-95d86e: #95d86e;
+$color-77ff02: #77ff02;
+$color-c0ffa4: #c0ffa4;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey: #d7d9db;
+
+/* Font/text values */
+$font-family-headers: "Cera Pro";
+$font-family-product-buttons: "Cera Pro";
+$font-family-body-text: Aeonik;
+$font-style-normal: normal;
+$font-weight-medium: medium;
+$font-weight-normal: normal;
+$font-weight-bold: 500;
+$font-size-15: 15px;
+$font-size-18: 18px;
+$font-size-22: 22px;
+$font-size-28: 28px;
+$font-size-42: 42px;
+$font-size-72: 72px;
+$character-spacing-0: 0px;
+$character-spacing-0-75: 0.75px;
+$character-spacing-0-9: 0.9px;
+$character-spacing-1-1: 1.1px;
+$line-spacing-18: 18px;
+$line-spacing-26: 26px;
+$line-spacing-30: 30px;
+$line-spacing-48: 48px;
+$line-spacing-91: 91px;
+$text-transform-uppercase: uppercase;
+
+.landingPageWrapper {
+  .header-3 {
+    font-family: $font-family-headers;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-22;
+    line-height: $line-spacing-48;
+    letter-spacing: $character-spacing-1-1;
+  }
+
+  .header-2-2 {
+    font-family: $font-family-headers;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-42;
+    line-height: $line-spacing-48;
+    letter-spacing: $character-spacing-0;
+  }
+  .header-2 {
+    font-family: $font-family-headers;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-42;
+    line-height: $line-spacing-48;
+    letter-spacing: $character-spacing-0;
+  }
+  .header-1 {
+    font-family: $font-family-headers;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-72;
+    line-height: $line-spacing-91;
+    letter-spacing: $character-spacing-0;
+  }
+
+  .text-button {
+    font-family: $font-family-headers;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-28;
+    line-height: $line-spacing-48;
+    letter-spacing: $character-spacing-0;
+    text-decoration: none;
+  }
+
+  .text-menu {
+    font-family: $font-family-body-text;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-28;
+    line-height: $line-spacing-48;
+    letter-spacing: $character-spacing-0;
+    text-decoration: none;
+  }
+
+  .text-menu-item {
+    font-family: $font-family-body-text;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-15;
+    line-height: $line-spacing-18;
+    letter-spacing: $character-spacing-0-75;
+    color: $color-101519;
+    text-transform: $text-transform-uppercase;
+    text-decoration: none;
+  }
+
+  .text-1 {
+    font-family: $font-family-body-text;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-22;
+    line-height: 32px;
+    letter-spacing: $character-spacing-1-1;
+  }
+
+  .text-2 {
+    font-family: $font-family-body-text;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-18;
+    line-height: $line-spacing-26;
+    letter-spacing: $character-spacing-0-9;
+  }
+
+  padding-bottom: 80px;
+
+  .mobileMenu {
+    display: none;
+  }
+
+  > .introduction,
+  > .aboutUs,
+  > .products,
+  > .liquiditypool,
+  > .safety,
+  > .ecosystem,
+  > .wall,
+  > .primeDev,
+  > .join,
+  > .moreInfo {
+    padding-left: 140px;
+    padding-right: 150px;
+  }
+
+  .stdButton {
+    @extend .text-button;
+    background-color: $color-white;
+    padding: 12px 24px;
+    color: $color-black;
+    text-align: center;
+
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+
+  .stdButton2 {
+    font-family: $font-family-product-buttons;
+    font-size: $font-size-28;
+    padding: 24px 46px;
+    color: $color-white;
+    background-color: $color-black;
+    border: 2px solid $color-white;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-white;
+      border: 2px solid $color-black;
+      color: $color-black;
+      a {
+        color: $color-black;
+      }
+    }
+  }
+
+  .stdButton3 {
+    font-family: $font-family-product-buttons;
+    font-size: $font-size-28;
+    padding: 20px 26px;
+    border: 4px solid $color-white;
+    display: inline-block;
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-df0031;
+      color: $color-fffa51;
+    }
+  }
+
+  .introduction {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 95px;
+    color: $color-white;
+    margin-bottom: 126px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+
+      .leftColumn {
+        flex-basis: 900px;
+        display: flex;
+        flex-direction: column;
+
+        .header {
+          margin-bottom: 178px;
+          display: flex;
+          justify-content: flex-start;
+          .logo {
+            img {
+              width: 94px;
+              height: 94px;
+            }
+          }
+
+          .centerMenu {
+            display: none;
+          }
+
+          .mobilemenuButton {
+            display: none;
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+
+        .body {
+          text-shadow: 0px 3px 20px #000000cc;
+          margin-bottom: 46px;
+          .title {
+            @extend .header-1;
+            margin-bottom: 8px;
+          }
+          .subtitle {
+            @extend .header-2;
+            margin-bottom: 40px;
+          }
+          .body {
+            @extend .text-1;
+
+            a {
+              color: $color-white;
+            }
+          }
+        }
+
+        .buttons {
+          margin-bottom: 96px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding-right: 8%;
+          .button {
+            @extend .stdButton;
+            display: inline-block;
+            width: 308px;
+            margin-bottom: 12px;
+            margin-right: 6px;
+            white-space: nowrap;
+          }
+        }
+
+        .footer {
+          flex-grow: 100;
+          place-items: flex-end;
+          .moreIcon {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 29px 29px;
+            border-color: transparent transparent $color-white transparent;
+          }
+        }
+      }
+      .centerMenu,
+      .rightColumn {
+        text-align: center;
+        @extend .text-menu;
+        font-size: 20px;
+        // min-width: 345px;
+        display: grid;
+        grid-template-columns: 48% 22% 30%;
+        grid-template-rows: 50px max-content;
+        grid-template-areas: "primeToken learn connect" "menu menu menu";
+        column-gap: 16px;
+
+        .primeToken {
+          grid-area: primeToken;
+        }
+        .learn {
+          grid-area: learn;
+        }
+        .connect {
+          grid-area: connect;
+        }
+
+        &.showPrimeToken .primeToken .menuDivider,
+        &.showLearn .learn .menuDivider,
+        &.showConnect .connect .menuDivider {
+          display: block;
+        }
+
+        &.showPrimeToken .primeTokenMenu,
+        &.showLearn .learnMenu,
+        &.showConnect .connectMenu {
+          display: flex;
+        }
+
+        .primeToken,
+        .learn,
+        .connect {
+          .name {
+            white-space: nowrap;
+            display: inline-block;
+            width: 100%;
+          }
+          .menuDivider {
+            display: none;
+            height: 3px;
+            background-color: $color-white;
+          }
+        }
+
+        .primeTokenMenu,
+        .learnMenu,
+        .connectMenu {
+          grid-area: menu;
+          font-size: 12px;
+          text-align: left;
+          display: none;
+          flex-direction: column;
+          overflow-y: hidden;
+          padding-top: 20px;
+
+          > div {
+            @extend .text-menu-item;
+            background-color: $color-white;
+            display: flex;
+            padding: 14px;
+            margin-bottom: 16px;
+            cursor: pointer;
+            color: $color-black;
+
+            .triangle {
+              flex-grow: 2;
+              text-align: right;
+              height: 0;
+              width: 0;
+              border-style: solid;
+              border-width: 0 12px 12px 0;
+              border-color: transparent $color-ae5cff transparent transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .aboutUs {
+    color: $color-101519;
+    margin-bottom: 126px;
+
+    .title {
+      padding-bottom: 46px;
+
+      .triangle {
+        position: absolute;
+        z-index: -1;
+
+        img {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 91px 91px;
+          border-color: transparent transparent $color-ff6975 transparent;
+          display: inline-block;
+        }
+      }
+
+      .name {
+        @extend .header-2-2;
+        display: inline-block;
+        position: relative;
+      }
+      .subtitle {
+        @extend .header-3;
+        position: relative;
+      }
+    }
+    .subsections {
+      display: flex;
+
+      .section {
+        flex-basis: 33%;
+        .icon {
+          margin-bottom: 46px;
+        }
+        .title {
+          @extend .header-2-2;
+          height: 100px;
+          padding-bottom: 46px;
+          margin-bottom: 46px;
+          border-bottom: solid 5px $color-ff6975;
+        }
+        .body {
+          @extend .text-2;
+        }
+      }
+
+      .section:not(:last-child) {
+        margin-right: 7%;
+      }
+    }
+  }
+
+  .products,
+  .liquiditypool,
+  .safety {
+    .productName {
+      font-family: $font-family-headers;
+      letter-spacing: $character-spacing-0;
+      font-size: 60px;
+      border-bottom: 5px solid $color-white;
+      padding-bottom: 24px;
+      margin-bottom: 46px;
+      line-height: 64px;
+    }
+    .body {
+      @extend .text-2;
+      margin-bottom: 64px;
+    }
+  }
+
+  .products {
+    background-color: $color-ff6975;
+    color: $color-white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+    .firstRow {
+      z-index: -1;
+      margin-bottom: 40px;
+      .title {
+        .triangle {
+          position: absolute;
+          z-index: 1;
+
+          img {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 91px 91px;
+            border-color: transparent transparent $color-df0031 transparent;
+            display: inline-block;
+          }
+        }
+
+        .name {
+          @extend .header-2-2;
+          display: inline-block;
+          position: relative;
+          z-index: 2;
+        }
+        .subtitle {
+          @extend .header-3;
+          position: relative;
+          z-index: 2;
+        }
+      }
+    }
+
+    .secondRow {
+      display: flex;
+      .leftColumn {
+        flex-basis: 50%;
+        align-self: center;
+
+        .moreInfoButton {
+          @extend .stdButton3;
+          /**
+           * temporary until we have a real link
+           */
+          &:hover {
+            cursor: default;
+            background-color: inherit;
+            color: inherit;
+          }
+        }
+      }
+
+      .rightColumn {
+        text-align: right;
+        flex-basis: 50%;
+
+        img {
+          width: 75%;
+        }
+      }
+    }
+  }
+
+  .liquiditypool {
+    background-color: $color-ff495b;
+    color: $color-white;
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+    .leftColumn {
+      flex-basis: 50%;
+      align-self: center;
+      img {
+        width: 75%;
+      }
+    }
+
+    .rightColumn {
+      flex-basis: 50%;
+
+      .moreInfoButton {
+        @extend .stdButton3;
+      }
+    }
+  }
+
+  .safety {
+    background-color: $color-ff6975;
+    color: $color-white;
+    z-index: -1;
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin-bottom: 130px;
+
+    .leftColumn {
+      flex-basis: 50%;
+      align-self: center;
+
+      .appComingButton {
+        @extend .stdButton3;
+        /**
+           * temporary until we have a real link
+           */
+        &:hover {
+          cursor: default;
+          background-color: inherit;
+          color: inherit;
+        }
+      }
+    }
+
+    .rightColumn {
+      text-align: center;
+      flex-basis: 50%;
+
+      img {
+        width: 75%;
+      }
+    }
+  }
+
+  .ecosystem {
+    color: $color-101519;
+    margin-bottom: 130px;
+
+    .firstRow {
+      .title {
+        .triangle {
+          position: absolute;
+          z-index: -1;
+
+          img {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 91px 91px;
+            border-color: transparent transparent $color-1ee0fc transparent;
+            display: inline-block;
+          }
+        }
+
+        .name {
+          @extend .header-2-2;
+          display: inline-block;
+        }
+        .subtitle {
+          @extend .header-3;
+        }
+      }
+    }
+
+    .secondRow {
+      display: flex;
+      .leftColumn {
+        flex-basis: 45%;
+        align-self: center;
+        .body {
+          @extend .text-1;
+          margin-bottom: 64px;
+          line-height: 26px;
+          font-weight: 500;
+          padding-right: 20px;
+        }
+
+        .joinButton {
+          @extend .stdButton2;
+        }
+      }
+      .rightColumn {
+        text-align: right;
+        flex-basis: 55%;
+
+        .pic img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .wall {
+    padding: 0;
+    margin-bottom: 130px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .primeDev {
+    margin: auto;
+    width: 44%;
+    text-align: center;
+    margin-bottom: 130px;
+
+    .logo {
+      margin-bottom: 66px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .body {
+      @extend .text-2;
+      margin-bottom: 60px;
+
+      .primefoundation {
+        font-style: italic;
+      }
+    }
+
+    .button {
+      @extend .stdButton2;
+    }
+  }
+
+  .join {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 420px;
+    padding-bottom: 95px;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 120px;
+
+    .title {
+      @extend .header-1;
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      @extend .text-1;
+      margin-bottom: 50px;
+      display: inline-block;
+      width: 60vh;
+    }
+    .button {
+      @extend .stdButton;
+      display: inline-block;
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .moreInfo {
+    display: grid;
+    color: $color-grey;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-areas:
+      "title logo links"
+      "subtitle logo share";
+
+    .title {
+      grid-area: title;
+      @extend .header-2;
+    }
+    .logo {
+      grid-area: logo;
+      text-align: center;
+      img {
+        width: 71px;
+        height: 71px;
+      }
+    }
+    .links {
+      grid-area: links;
+      text-align: right;
+      a {
+        font-family: $font-family-body-text;
+        color: $color-grey;
+        font-size: 18px;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .subtitle {
+      grid-area: subtitle;
+      @extend .text-1;
+    }
+
+    .share {
+      grid-area: share;
+      text-align: right;
+
+      a {
+        width: 33px;
+        height: 33px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a:not(:last-child) {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .mobileMenu {
+    position: fixed;
+    z-index: 100;
+    background-color: #ff6975;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 43px;
+    padding-right: 50px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+
+      .logo {
+        img {
+          width: 58px;
+          height: 58px;
+        }
+      }
+      .mobilemenuButton {
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+    .item {
+      @extend .text-menu-item;
+      font-size: 18px;
+      line-height: 10px;
+      background-color: $color-white;
+      margin-bottom: 10px;
+      display: flex;
+      padding: 16px;
+      cursor: pointer;
+      color: $color-black;
+
+      .triangle {
+        flex-grow: 2;
+        text-align: right;
+        height: 0;
+        width: 0;
+        border-style: solid;
+        border-width: 0 12px 12px 0;
+        border-color: transparent $color-ae5cff transparent transparent;
+      }
+    }
+  }
+
+  &.showMobileMenu .mobileMenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .header-3 {
+    line-height: 34px;
+  }
+  .text-1 {
+    line-height: 32px;
+  }
+
+  .landingPageWrapper {
+    text-align: center;
+    padding-bottom: 0;
+
+    > .introduction,
+    > .aboutUs,
+    > .products,
+    > .liquiditypool,
+    > .safety,
+    > .ecosystem,
+    > .wall,
+    > .primeDev,
+    > .join,
+    > .moreInfo {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .stdButton,
+    .stdButton2,
+    .stdButton3 {
+      font-size: 24px;
+    }
+
+    .products,
+    .liquiditypool,
+    .safety {
+      .productName {
+        font-size: 36px;
+        line-height: 38px;
+      }
+    }
+
+    .introduction {
+      padding-top: 60px;
+      padding-bottom: 40px;
+      height: unset;
+
+      .container {
+        .leftColumn {
+          flex-basis: 100vw;
+          .header {
+            justify-content: space-around;
+            margin-bottom: 80px;
+
+            .centerMenu {
+              display: grid;
+
+              .primeTokenMenu,
+              .learnMenu,
+              .connectMenu {
+                position: absolute;
+                z-index: 2;
+              }
+            }
+
+            .centerMenu {
+              display: none;
+            }
+
+            .mobilemenuButton {
+              display: unset;
+            }
+          }
+          .body {
+            margin-bottom: 30px;
+
+            .title {
+              font-size: 46px;
+              line-height: 54px;
+              margin-bottom: 22px;
+            }
+            .subtitle {
+              font-size: 30px;
+              line-height: 38px;
+            }
+            .body {
+              font-size: 18px;
+            }
+          }
+
+          .footer {
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        .rightColumn {
+          display: none;
+        }
+      }
+    }
+
+    .aboutUs {
+      .title {
+        padding-bottom: 46px;
+        .triangle {
+          left: 50%;
+
+          img {
+            position: relative;
+            left: -50%;
+          }
+        }
+
+        .name {
+          position: unset;
+        }
+        .subtitle {
+          position: unset;
+        }
+      }
+      .subsections {
+        flex-direction: column;
+        .section {
+          .title {
+            height: unset;
+          }
+        }
+        .section:not(:last-child) {
+          margin-right: unset;
+          margin-bottom: 126px;
+        }
+      }
+    }
+
+    .products {
+      .title {
+        .triangle {
+          left: 50%;
+
+          img {
+            position: relative;
+            left: -50%;
+          }
+        }
+      }
+    }
+
+    .ecosystem {
+      .title {
+        margin-bottom: 50px;
+        .triangle {
+          left: 50%;
+
+          img {
+            position: relative;
+            left: -50%;
+          }
+        }
+      }
+      .pic {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .join {
+      padding-top: 120px;
+      margin-bottom: 0;
+      .title {
+        font-size: 46px;
+        line-height: 54px;
+        margin-bottom: 46px;
+      }
+
+      .subtitle {
+        text-shadow: 0px 3px 20px #000000cc;
+        font-size: 18px;
+        margin-bottom: 90px;
+        width: 40vh;
+      }
+    }
+
+    .moreInfo {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .landingPageWrapper {
+    .introduction {
+      .container {
+        .leftColumn {
+          .header {
+            justify-content: space-between;
+            .logo {
+              img {
+                width: 58px;
+                height: 58px;
+              }
+            }
+          }
+          .buttons {
+            padding-right: unset;
+            .button {
+              width: unset;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .products {
+      padding-top: 100px;
+      padding-bottom: 110px;
+      .secondRow {
+        flex-direction: column-reverse;
+        .rightColumn {
+          text-align: center;
+          padding-bottom: 40px;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    .liquiditypool {
+      flex-direction: column;
+      padding-top: 100px;
+      padding-bottom: 110px;
+
+      .leftColumn {
+        padding-bottom: 40px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .safety {
+      flex-direction: column-reverse;
+      padding-top: 100px;
+      padding-bottom: 110px;
+      margin-bottom: 110px;
+
+      .rightColumn {
+        padding-bottom: 40px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .ecosystem {
+      margin-bottom: 110px;
+      .secondRow {
+        flex-direction: column-reverse;
+        .rightColumn {
+          text-align: center;
+          padding-bottom: 40px;
+        }
+      }
+    }
+
+    .wall {
+      display: none;
+      margin-bottom: 110px;
+    }
+
+    .primeDev {
+      flex-direction: column-reverse;
+      margin-bottom: 110px;
+      width: unset;
+      .rightColumn {
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
