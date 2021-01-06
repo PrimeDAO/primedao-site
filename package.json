@@ -1,5 +1,5 @@
 {
-  "name": "@primedao/landingPage",
+  "name": "@primedao/primedao-site",
   "version": "2.0.7",
   "description": "PrimeDAO main webpage",
   "main": "index.js",
